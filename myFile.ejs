@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Personal Website</title>
+    <link href="favicon.ico" rel="icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@500&family=Redressed&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        padding: 0;
+      }
+
+      body {
+        padding: 0;
+        margin: 0 0 0 0;
+        text-align: center;
+        font-family: Merriweather, sans-serif;
+      }
+
+      p {
+        color: #40514e;
+        line-height: 2;
+      }
+
+      /*Top container*/
+      .top-container h1 {
+        margin: 2% auto 0;
+        padding-bottom: 0;
+        font-family: Sacramento, sans-serif;
+        font-size: 5.625rem;
+        color: #66bfbf;
+        line-height: 2;
+      }
+
+      .top-container h2 {
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 2rem;
+        color: #66bfbf;
+        font-weight: normal;
+      }
+
+      .intro {
+        width: 70%;
+        margin: 20px auto;
+      }
+
+      .skills {
+        padding-top: 20px;
+      }
+
+      .underline {
+        text-decoration: underline;
+      }
+
+      .top-container {
+        margin-top: 0;
+        margin-bottom: 100px;
+        background-color: #e4f9f5;
+      }
+
+      .top-cloud {
+        position: relative;
+        left: 13%;
+      }
+
+      .bottom-cloud {
+        display: block;
+        position: absolute;
+        left: 13%;
+        top: 15%;
+      }
+
+      .profile img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+      }
+
+      .skill-icon {
+        height: 30px;
+        width: 40px;
+      }
+
+      h2 {
+        font-family: Montserrat, sans-serif;
+        color: #66bfbf;
+      }
+
+      h3,
+      a {
+        font-family: Montserrat, sans-serif;
+        color: #11999e;
+      }
+
+      .hr-styled {
+        border: none;
+        border-top: dotted #ccc 6px;
+        width: 4%;
+        height: 10px;
+        margin: 60px auto;
+      }
+
+      .skill-row {
+        width: 50%;
+        margin: 60px auto 30px;
+        text-align: left;
+        line-height: 2;
+      }
+
+      .skill-row img {
+        max-width: 25%;
+        max-height: 25%;
+      }
+
+      .pc-img {
+        float: left;
+        border-radius: 50%;
+        margin-right: 30px;
+      }
+
+      .chillie-img {
+        float: right;
+        margin-left: 30px;
+      }
+
+      .contact-me p {
+        width: 30%;
+        margin: 20px auto 50px;
+      }
+
+      .btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        margin-top: 100px;
+      }
+
+      .btn:hover {
+        background: #30e3cb;
+        background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+        text-decoration: none;
+      }
+
+      .bottom-container {
+        padding-top: 50px;
+        background-color: #66bfbf;
+        height: 123px;
+        margin-top: 100px;
+      }
+
+      .bottom-container a {
+        text-decoration: none;
+        color: #11999e;
+        margin: 0 15px 0 15px;
+      }
+
+      .bottom-container a:hover {
+        color: #eaf6f6;
+      }
+
+      .bottom-container p {
+        color: #eaf6f6;
+        font-size: 0.75rem;
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="top-container">
+      <img
+        class="top-cloud"
+        src="https://raw.githubusercontent.com/danvinicius/danvinicius/master/cloud.png"
+        alt="nuvem"
+      />
+      <h1>I'm Daniel</h1>
+      <h2>a <span class="underline">Web</span> developer.</h2>
+      <img
+        class="bottom-cloud"
+        src="https://raw.githubusercontent.com/danvinicius/danvinicius/master/cloud.png"
+        alt="nuvem"
+      />
+      <img
+        src="https://raw.githubusercontent.com/danvinicius/danvinicius/master/mountain.png"
+        alt="montanha"
+      />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          src="https://raw.githubusercontent.com/danvinicius/danvinicius/master/eu__.jpg"
+          alt="Daniel"
+          style="object-fit: cover"
+        />
+        <h2>Olá</h2>
+        <p class="intro">
+          Web Developer | NodeJS | VueJS | Graduando em Sistemas de Informação
+          na Universidade Federal Rural do Rio de Janeiro
+        </p>
+      </div>
+      <!-- <hr class="hr-styled" /> -->
+
+      <div class="skills">
+        <h2>Minhas habilidades</h2>
+        <div style="display: inline-block">
+          <br />
+          <img
+            class="skill-icon"
+            alt="HTML5"
+            title="HTML5"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+          />
+          <img
+            class="skill-icon"
+            alt="CSS3"
+            title="CSS3"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+          />
+          <img
+            class="skill-icon"
+            alt="JavaScript"
+            title="JavaScript"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+          />
+          <img
+            class="skill-icon"
+            alt="MongoDB"
+            title="MongoDB"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+          />
+          <img
+            class="skill-icon"
+            alt="ExpressJS"
+            title="ExpressJS"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
+          />
+          <img
+            class="skill-icon"
+            alt="VueJS"
+            title="VueJS"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
+          />
+          <img
+            class="skill-icon"
+            alt="NodeJS"
+            title="NodeJS"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+          />
+          <img
+            class="skill-icon"
+            alt="Python"
+            title="Python"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+          />
+          <img
+            class="skill-icon"
+            alt="C"
+            title="C"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+          />
+        </div>
+        <div class="skill-row">
+          <img
+            class="pc-img"
+            src="https://raw.githubusercontent.com/danvinicius/danvinicius/master/computer.png"
+            alt="computador"
+          />
+          <h3>Back-end</h3>
+          <p>
+            Desenvolvo APIs com arquitetura REST, sistemas de login, sistemas de
+            clínicas, sistemas escolares, chats de conversa em tempo real, entre
+            outros.
+          </p>
+        </div>
+
+        <div class="skill-row">
+          <img
+            class="chillie-img"
+            src="https://raw.githubusercontent.com/danvinicius/danvinicius/master/chillies.png"
+            alt="chillies"
+          />
+          <h3>Front-end</h3>
+          <p>
+            Crio websites, e-commerces, páginas estáticas, landing pages, entre
+            outros. Sempre me atendo à responsividade e à acessibilidade.
+          </p>
+        </div>
+      </div>
+      <hr class="hr-styled" />
+
+      <div class="contact-me">
+        <h2>Entre em contato</h2>
+        <a class="btn" href="mailto:viniccius774@gmail.com"
+          >Envie-me um e-mail</a
+        >
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/danvinicius/"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://twitter.com/dannv_">Twitter</a>
+      <a class="footer-link" href="https://github.com/danvinicius">Github</a>
+      <p><%= new Date().getFullYear()%> | Daniel Vinícius.</p>
+    </div>
+  </body>
+</html>
