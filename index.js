@@ -3,7 +3,7 @@ const ejs = require("ejs");
 
 // const data = {
 //   name: "Daniel",
-//   stack: "Back-end developer",
+//   stack: "Web developer",
 // };
 
 ejs.renderFile(
